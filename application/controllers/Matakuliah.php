@@ -16,6 +16,7 @@ class Matakuliah extends CI_Controller
                 'min_lenght' => 'Kode terlalu pendek'
             ]
         );
+
         $this->form_validation->set_rules(
             'nama',
             'Nama Matakuliah',
@@ -25,6 +26,7 @@ class Matakuliah extends CI_Controller
                 'min_lenght' => 'Nama terlalu pendek'
             ]
         );
+
         if ($this->form_validation->run() != true) {
             $this->load->view('view-form-matakuliah');
         } else {
