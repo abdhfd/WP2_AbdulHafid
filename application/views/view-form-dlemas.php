@@ -20,44 +20,44 @@
                 </tr>
                 <tr>
                     <th>Nama Siswa</th>
-                    <th>:</th>
+                    <td>:</td>
                     <td>
-                        <input type="text" name="nama" id="nama" placeholder="Required">
+                        <input type="text" name="nama" id="nama">
                     </td>
                 </tr>
                 <tr>
                     <th>NIS</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="nis" id="nis" placeholder="Required">
+                        <input type="text" name="nis" id="nis">
                     </td>
                 </tr>
                 <tr>
                     <th>Kelas</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="kls" id="kls" placeholder="Required">
+                        <input type="text" name="kls" id="kls">
                     </td>
                 </tr>
                 <tr>
                     <th>Tanggal Lahir</th>
                     <td>:</td>
                     <td>
-                        <input type="tgl" name="tgl" id="tgl" placeholder="Day/Month/Year">
+                        <input type="date" name="tgl" id="tgl">
                     </td>
                 </tr>
                 <tr>
                     <th>Tempat Lahir</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="tmp" id="tmp" placeholder="Required">
+                        <input type="text" name="tmp" id="tmp">
                     </td>
                 </tr>
                 <tr>
                     <th>Alamat</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="alm" id="alm" placeholder="Required">
+                        <input type="text" name="alm" id="alm">
                     </td>
                 </tr>
                 <tr>

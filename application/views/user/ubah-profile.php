@@ -6,7 +6,8 @@
             <div class="form-group row">
                 <label for="email" class="col-sm-2 col-formlabel">Email</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="email" name="email" value="<?= $user['email']; ?>" readonly>
+                    <input type="text" class="form-control" id="email" name="email" value="<?= $user['email']; ?>"
+                        readonly>
                 </div>
             </div>
             <div class="form-group row">
@@ -21,12 +22,11 @@
                 <div class="col-sm-10">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="<?=
-                                        base_url('assets/img/profile/') . $user['image']; ?>" class="imgthumbnail" alt="">
+                            <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" class="img-thumbnail" alt="">
                         </div>
                         <div class="col-sm-9">
                             <div class="custom-file">
-                                <input type="file" class="customfile-input" id="image" name="image">
+                                <input type="file" class="custom-file-input" id="image" name="image">
                                 <label class="custom-file-label" for="image">Pilih file</label>
                             </div>
                         </div>
